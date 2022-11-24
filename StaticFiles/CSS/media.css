@@ -51,7 +51,9 @@
     }
 
     .header-nav {
-        margin-bottom: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
     }
 
     .header-row {
@@ -86,6 +88,7 @@
     .course button{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .header-row {
