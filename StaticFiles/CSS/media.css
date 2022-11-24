@@ -87,6 +87,22 @@
         display: flex;
         justify-content: center;
     }
+
+    .header-row {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+    .header-heading {
+        margin-bottom: 12px;
+        margin-left: 5px;
+        font-weight: 600;
+        font-size: 28px;
+        margin-top: 0;
+    }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
