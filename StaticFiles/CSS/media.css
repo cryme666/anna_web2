@@ -82,6 +82,11 @@
     .midl{
         max-width: 100%;
     }
+
+    .course button{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
