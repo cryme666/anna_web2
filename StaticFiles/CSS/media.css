@@ -111,6 +111,11 @@
 
     .info, .info2{
         max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        margin-left: 5px;
+        margin-right: 0;
     }
 }
 
