@@ -47,7 +47,8 @@
 
     .nav-button {
         z-index: 9;
-        margin-left: 120px;
+        position: absolute;
+        right: 0;
     }
 
     .header-nav {
