@@ -14,7 +14,7 @@ body {
     height: 42px;
     width: 42px;
     text-align: center;
-    background: #151414;
+    background: unset;
     display: block;
     border-radius: 2px;
 }
