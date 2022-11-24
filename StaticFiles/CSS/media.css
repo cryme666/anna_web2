@@ -76,6 +76,10 @@
     .header-content p, .header-content h1 {
         margin-left: 5px;
     }
+
+    .midl{
+        max-width: 100%;
+    }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
