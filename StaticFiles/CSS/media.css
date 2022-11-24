@@ -109,13 +109,18 @@
         margin-top: 0;
     }
 
-    .info, .info2{
+    .textbox{
         max-width: 100%;
         display: flex;
-        justify-content: space-between;
-        column-gap: 30px;
-        margin-left: 5px;
-        margin-right: 0;
+        flex-direction: column;
+    }
+
+    img.img-laptop{
+        max-width: 0;
+    }
+
+    .box1{
+        max-width: 100%;
     }
 }
 
