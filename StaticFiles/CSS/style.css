@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(90deg, #531ACA 0%, #6D3ADA 50.00%, #5D16D1 100%);
+    font-family: 'Montserrat', serif;
+}
+
+li, ul {
+    list-style: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 100px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.nav-item {
+    margin-left: 45px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    border: 3px solid #d798ff;
+    border-right: none;
+    padding: 5px;
+    height: 10px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #531ACA;
+
+}
+
+.searchButton {
+    width: 30px;
+    height: 26px;
+    border: 1px solid #d798ff;
+    background: #d798ff;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.fa-magnifying-glass {
+    color: #531ACA;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-heading {
+    margin-bottom: 12px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 200px;
+}
+
+.header-content p, .header-content h1 {
+    font-family: 'Montserrat', serif;
+    color: white;
+}
+
+.header-content p {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.header-content h1 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.course button {
+    width: 222px;
+    height: 48px;
+    margin-left: 50px;
+    margin-top: 36px;
+    color: white;
+    background: #7B68EE;
+    box-shadow: 0 10px 15px rgba(51, 22, 102, 0.25), 0 1px 6px rgba(31, 41, 55, 0.1);
+    border-radius: 12px;
+}
+
+.nav-button {
+    display: none;
+    border: none;
+    background-color: unset;
+}
