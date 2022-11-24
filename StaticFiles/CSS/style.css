@@ -20,6 +20,10 @@ li, ul {
     color: white;
 }
 
+.nav-link.active {
+    color: #d798ff;
+}
+
 .nav-item {
     margin-left: 45px;
     display: flex;
