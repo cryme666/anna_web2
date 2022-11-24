@@ -54,6 +54,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
+        margin-bottom: 10px;
     }
 
     .header-row {
@@ -63,10 +64,6 @@
 
     .header-content {
         margin-top: 0;
-    }
-
-    .header-img {
-        text-align: center;
     }
 
     .search{
@@ -82,6 +79,10 @@
     }
 
     .midl{
+        max-width: 100%;
+    }
+
+    .header-img{
         max-width: 100%;
     }
 
