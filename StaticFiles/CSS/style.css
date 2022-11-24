@@ -67,6 +67,22 @@ a {
     color: #531ACA;
 }
 
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-heading {
+    margin-bottom: 12px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 200px;
+}
+
 .header-content p, .header-content h1 {
     font-family: 'Montserrat', serif;
     color: white;
