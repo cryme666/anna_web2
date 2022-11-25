@@ -156,6 +156,18 @@
         max-width: 100%;
         flex-direction: column;
     }
+
+    .modulbox{
+        justify-content: unset;
+        align-items: unset;
+    }
+    .text{
+        justify-content: space-between;
+        display: flex;
+    }
+    .icon{
+        display: none;
+    }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
