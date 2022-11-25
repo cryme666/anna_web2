@@ -1,0 +1,74 @@
+main{
+    margin-top: 100px;
+}
+main h1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.teacher{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+    margin-left: 130px;
+    box-sizing: border-box;
+    width: 600px;
+    height: 360px;
+    border-radius: 32px;
+    border: 5px solid #49CCF9;
+    background: white;
+}
+.block{
+    margin-top: 25px;
+}
+
+.block h1{
+    color: black;
+}
+
+.namecompany{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+
+    color: #49CCF9;
+}
+
+.aboutcourse{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    color: white;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+
+    width: 400px;
+    height: 52px;
+
+    background: linear-gradient(90deg, #531ACA -274.25%, #6D3ADA 43.87%, #5D16D1 186.37%);
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+    margin-bottom: 132px;
+    flex-wrap: wrap;
+}
+
+.box p{
+    margin-left: 10px;
+}

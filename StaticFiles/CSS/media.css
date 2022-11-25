@@ -168,6 +168,26 @@
     .icon{
         display: none;
     }
+
+    .teacher{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        align-items: flex-end;
+    }
+
+    .photo{
+        align-items: center;
+    }
+
+    .aboutcourse{
+        max-width: 100%;
+        margin: 0;
+    }
+    .box{
+
+    }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
