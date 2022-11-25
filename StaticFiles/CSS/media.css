@@ -1,9 +1,9 @@
 @media (max-width: 900px) {
-    header{
+    header {
         margin: 0 0 0 0;
     }
 
-    .logo{
+    .logo {
         margin-left: 0;
         display: flex;
         justify-content: center;
@@ -67,11 +67,11 @@
         margin-top: 0;
     }
 
-    .search{
+    .search {
         margin-left: 45px;
     }
 
-    .searchButton{
+    .searchButton {
         margin-top: 2px;
     }
 
@@ -79,15 +79,15 @@
         margin-left: 5px;
     }
 
-    .midl{
+    .midl {
         max-width: 100%;
     }
 
-    .header-img{
+    .header-img {
         max-width: 100%;
     }
 
-    .course button{
+    .course button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -109,42 +109,52 @@
         margin-top: 0;
     }
 
-    .textbox{
+    .textbox {
         max-width: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    img.img-laptop{
+    img.img-laptop {
         max-width: 0;
     }
 
-    .box1{
+    .box1 {
         max-width: 100%;
     }
 
-    .conteinerdirectivity{
+    .conteinerdirectivity {
         flex-direction: column;
         max-width: 100%;
     }
 
-    .info2{
+    .info2 {
         max-width: 100%;
     }
 
-    .info2 h1{
+    .info2 h1 {
         text-align: center;
     }
 
-    .commentinfo2{
+    .commentinfo2 {
         margin-top: 0;
     }
 
-    .questions{
+    .questions {
         flex-direction: column;
     }
-    .questionbox{
+
+    .questionbox {
         margin-top: 10px;
+    }
+
+    .progcourse, .progcoursebox {
+        max-width: 100%;
+    }
+
+    .wrapper, .modulbox {
+        max-width: 100%;
+        flex-direction: column;
     }
 }
 
