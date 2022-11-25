@@ -1,0 +1,77 @@
+.questions {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+}
+
+.questionbox {
+    width: 304px;
+    height: 200px;
+    background: #FFFFFF;
+    background: linear-gradient(18.5deg, #49CCF9 14.99%, #8930FD 89.57%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.questionbox h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.questionbox p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.progcourse {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.progcoursebox {
+    margin-top: 150px;
+    width: 1150px;
+    background: #FFFFFF;
+    /*box-shadow: 0px 25px 50px rgba(44, 76, 138, 0.25);*/
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.wrapper{
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.modulbox {
+    margin-top: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    color: black;
+    padding: 5px;
+    background: unset;
+    border: 1px solid #49CCF9;
+    width: 1056px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.i .fa-arrow-down{
+    margin-right: 10px;
+}
+
+/*.moduli1{*/
+/*    margin-right: 40px;*/
+/*}*/

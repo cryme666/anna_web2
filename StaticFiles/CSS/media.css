@@ -139,6 +139,13 @@
     .commentinfo2{
         margin-top: 0;
     }
+
+    .questions{
+        flex-direction: column;
+    }
+    .questionbox{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
