@@ -122,6 +122,10 @@
     .box1{
         max-width: 100%;
     }
+
+    .conteinerdirectivity{
+        flex-direction: column;
+    }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
