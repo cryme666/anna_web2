@@ -125,6 +125,19 @@
 
     .conteinerdirectivity{
         flex-direction: column;
+        max-width: 100%;
+    }
+
+    .info2{
+        max-width: 100%;
+    }
+
+    .info2 h1{
+        text-align: center;
+    }
+
+    .commentinfo2{
+        margin-top: 0;
     }
 }
 
