@@ -67,11 +67,17 @@
     border-radius: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.i .fa-arrow-down {
-    margin-right: 10px;
+.icon{
+    margin-right: 15px;
+}
+
+.moduli1{
+    margin-left: 10px;
+    margin-right: 40px;
+    font-weight: 600;
 }
 
 /*.moduli1{*/
