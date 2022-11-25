@@ -1,0 +1,112 @@
+.maintext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.price{
+    width: 288px;
+    height: 520px;
+    background: #FFFFFF;
+    background-image: url("../../StaticFiles/IMG/Vector.png");
+    background-repeat: no-repeat;
+    box-shadow: 0 20px 25px rgba(31, 41, 55, 0.1), 0 10px 10px rgba(31, 41, 55, 0.04);
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+.price h1{
+    margin-bottom: 55px;
+}
+
+.price1{
+    width: 288px;
+    height: 520px;
+    background: #FFFFFF;
+    background-image: url("../../StaticFiles/IMG/Vector.png");
+    background-repeat: no-repeat;
+    box-shadow: 0 20px 25px rgba(31, 41, 55, 0.1), 0 10px 10px rgba(31, 41, 55, 0.04);
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+.price1 h1{
+    margin-bottom: 20px;
+}
+
+.access p{
+    color: black;
+}
+.access{
+    margin-top: 110px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.buy1{
+    width: 256px;
+    height: 48px;
+    background: #7B68EE;
+    border-radius: 12px;
+}
+
+.fa-check{
+    color: green;
+}
+.fa-xmark{
+    color: red;
+}
+
+.formtext{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.form-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-inner input{
+    width: 480px;
+    height: 48px;
+    background: #FFFFFF;
+
+    box-shadow: 0 1px 2px rgba(31, 41, 55, 0.08);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.contact button{
+    height: 48px;
+    width: 480px;
+
+    background: #7B68EE;
+    box-shadow: 0 10px 15px rgba(51, 22, 102, 0.25), 0 1px 6px rgba(31, 41, 55, 0.1);
+    border-radius: 12px;
+}
+
+.textinform{
+    color: white;
+    margin-left: 10px;
+
+}

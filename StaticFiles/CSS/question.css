@@ -10,11 +10,13 @@
     width: 304px;
     height: 200px;
     background: #FFFFFF;
-    background: linear-gradient(18.5deg, #49CCF9 14.99%, #8930FD 89.57%);
+    background-repeat: no-repeat;
+    background-image: url("../../StaticFiles/IMG/Vector1.png");
+    /*background: linear-gradient(18.5deg, #49CCF9 14.99%, #8930FD 89.57%);*/
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -25,7 +27,7 @@
 }
 
 .questionbox p {
-    color: white;
+    color: black;
     font-size: 16px;
     font-weight: 400;
 }

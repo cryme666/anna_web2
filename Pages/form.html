@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../StaticFiles/CSS/style.css">
-    <link rel="stylesheet" href="../StaticFiles/CSS/question.css">
+    <link rel="stylesheet" href="../StaticFiles/CSS/form.css">
     <link rel="stylesheet" href="../StaticFiles/CSS/media.css">
     <script src="https://kit.fontawesome.com/81b54e6bc6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,8 @@
                     <li class="nav-item"><a href="../index.html" class="nav-link">Головна</a></li>
                     <li class="nav-item"><a href="/Pages/directivity.html" class="nav-link">Орієнтованість</a>
                     </li>
-                    <li class="nav-item"><a href="/Pages/questions.html" class="nav-link active">Головні питання</a></li>
+                    <li class="nav-item"><a href="/Pages/questions.html" class="nav-link active">Головні питання</a>
+                    </li>
                     <li class="nav-item"><a href="/Pages/info.html" class="nav-link">Основне про курси</a></li>
                     <li class="nav-item"><a href="/Pages/info.html" class="nav-link">Оплата та зв'язок</a></li>
                     <li class="nav-item"><a href="/Pages/login.html" class="nav-link">Реєстрація</a></li>
@@ -48,7 +49,50 @@
     </div>
 </header>
 <main>
-
+    <div class="maintext">
+        <h1>Вартість навчання</h1>
+        <p>20% студентів отримають роботу із заробітком від 500$/міс.</p>
+    </div>
+    <div class="boxes">
+        <div class="price">
+            <div class="test"><h1>Standart</h1>
+                <h1>5000₴ грн</h1></div>
+            <div class="access">
+                <p><i class="fa-solid fa-check fa-fw"></i> Доступ к видео урокам</p>
+                <p><i class="fa-solid fa-check fa-fw"></i> Онлайн чат</p>
+                <p><i class="fa-solid fa-check fa-fw"></i> Практическое занятие</p>
+                <p><i class="fa-solid fa-check fa-fw"></i> Домашнее задание</p>
+                <p><i class="fa-solid fa-xmark fa-fw"></i> Бронирование места</p>
+            </div>
+            <button class="buy1" onClick='location.href="../index.html"'>ОПЛАТИТИ</button>
+        </div>
+        <div class="price1">
+            <div class="test"><h1>Standart<br>+ Reservation</h1>
+                <h1>5250₴ грн</h1></div>
+            <div class="access">
+                <p><i class="fa-solid fa-check fa-fw"></i> Доступ к видео урокам</p>
+                <p><i class="fa-solid fa-check fa-fw"></i> Онлайн чат</p>
+                <p><i class="fa-solid fa-check fa-fw"></i> Практическое занятие</p>
+                <p><i class="fa-solid fa-check fa-fw"></i> Домашнее задание</p>
+                <p><i class="fa-solid fa-check fa-fw"></i> Бронирование места</p>
+            </div>
+            <button class="buy1" onClick='location.href="../index.html"'>ОПЛАТИТИ</button>
+        </div>
+    </div>
+    <div class="formtext">
+        <h1>Запишитесь на курс сейчас</h1>
+    </div>
+    <form class="contact">
+        <div class="form-inner">
+            <label for="fname" class="textinform">Ваше імʼя: </label>
+            <input type="text" id="fname" placeholder="Ваше імʼя" required autofocus>
+            <label for="email" class="textinform">Ваш e-mail: </label>
+            <input type="email" id="email" placeholder="Ваш e-mail" required>
+            <label for="tel" class="textinform">Ваш телефон: </label>
+            <input type="tel" id="tel" placeholder="+380" required>
+            <button name="submit" type="submit" id="contact-submit" data-submit="Відправка...">Відправити</button>
+        </div>
+    </form>
 </main>
 <script src="../StaticFiles/JS/main.js"></script>
 </body>
