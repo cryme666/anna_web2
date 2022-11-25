@@ -162,7 +162,7 @@
         align-items: unset;
     }
     .text{
-        justify-content: space-between;
+        justify-content: flex-start;
         display: flex;
     }
     .icon{
