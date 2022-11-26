@@ -64,7 +64,6 @@ main h1{
     background: linear-gradient(90deg, #531ACA -274.25%, #6D3ADA 43.87%, #5D16D1 186.37%);
     border: 1px solid #FFFFFF;
     border-radius: 4px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
     margin-bottom: 132px;
     flex-wrap: wrap;
 }

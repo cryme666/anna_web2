@@ -145,3 +145,9 @@ a {
     border: none;
     background-color: unset;
 }
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}

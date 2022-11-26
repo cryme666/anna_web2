@@ -12,7 +12,6 @@
     background: #FFFFFF;
     background-repeat: no-repeat;
     background-image: url("../../StaticFiles/IMG/Vector1.png");
-    /*background: linear-gradient(18.5deg, #49CCF9 14.99%, #8930FD 89.57%);*/
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -47,7 +46,6 @@
     margin-top: 150px;
     width: 1150px;
     background: #FFFFFF;
-    /*box-shadow: 0px 25px 50px rgba(44, 76, 138, 0.25);*/
     border-radius: 12px;
     padding: 10px;
 }
@@ -87,7 +85,6 @@
     font-weight: 600;
 }
 
-/* Dropdown Button */
 .dropbtn {
     background-color: unset;
     /*padding: 16px;*/
@@ -95,13 +92,11 @@
     border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -111,7 +106,6 @@
     z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -119,17 +113,14 @@
     display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: unset;
 }
