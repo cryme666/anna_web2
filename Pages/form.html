@@ -14,71 +14,71 @@
 
     <title>Курси | Оплата та зв'язок</title>
 </head>
+
 <body>
 <header>
-    <div class="akeconsa-udaneles">
-        <a href="#"><span class="fas fa-angle-up"></span></a>
-    </div>
+  
     <div class="container">
         <div class="header-nav">
-            <a href="../index.html" class="logo"><img src="../StaticFiles/IMG/logo.svg" alt=""></a>
-            <nav id="nav" class="nav">
-                <ul class="nav-list">
-                    <div class="search">
-                        <label>
-                            <input type="text" class="searchTerm" placeholder="Що будемо шукати?">
-                        </label>
-                        <button onclick="window.location.href='/index.html'" type="submit" class="searchButton">
-                            <i class="fa fa-magnifying-glass"></i>
-                        </button>
-                    </div>
-                    <li class="nav-item"><a href="../index.html" class="nav-link">Головна</a></li>
-                    <li class="nav-item"><a href="/Pages/directivity.html" class="nav-link">Орієнтованість</a>
-                    </li>
-                    <li class="nav-item"><a href="/Pages/questions.html" class="nav-link">Головні питання</a>
-                    </li>
-                    <li class="nav-item"><a href="/Pages/info.html" class="nav-link">Основне про курси</a></li>
-                    <li class="nav-item"><a href="/Pages/info.html" class="nav-link active">Оплата та зв'язок</a></li>
-                    <li class="nav-item"><a href="/Pages/login.html" class="nav-link">Реєстрація</a></li>
-                </ul>
-            </nav>
-            <button id="nav-btn" class="nav-button">
-                <img id="nav-btn-img" src="../StaticFiles/IMG/nav-open.svg" alt="Nav button">
-            </button>
+            <a href="index.html" class="logo"><img src="StaticFiles/IMG/logo.svg" alt=""></a>
+        </div>
+        <div class="menu-items">
+            <ul>
+            <li><a href="../index.html">Головна</a></li>
+            <li ><a href="/Pages/directivity.html">Про нас</a></li>
+            <li ><a href="/Pages/news.html">Новини</a></li>
+            <li ><a href="/Pages/questions.html" >Головні питання</a></li>
+            <li ><a href="/Pages/info.html" >Основне про курси</a></li>
+            <li ><a href="/Pages/form.html" >Оплата та зв'язок</a></li>
+            <li ><a href="/Pages/login.html" >Реєстрація</a></li> 
+            </ul>
+        </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>
 <main>
+
+    <div class="akeconsa-udaneles">
+        <a href="#"><span class="fas fa-angle-up"></span></a>
+    </div>
+
+    <div id="cart">
+        <h2>Кошик</h2>
+        <div id="cartItems"></div>
+        <div id="cartTotal">Загальна вартість: 0₴ грн</div>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Додати до кошика</h2>
+            <p id="modalProductName"></p>
+            <label for="modalProductQuantity">Кількість:</label>
+            <input type="number" id="modalProductQuantity" value="1" min="1">
+            <button id="modalAddToCart">Додати</button>
+        </div>
+    </div>
+
     <div class="maintext">
         <h1>Вартість навчання</h1>
         <p>20% студентів отримають роботу із заробітком від 500$/міс.</p>
+
+        <div class="sort-buttons">
+            <button id="sortName">Сортувати за назвою</button>
+            <button id="sortPrice">Сортувати за ціною</button>
+            
+        </div>
+
+        
     </div>
     <div class="boxes">
-        <div class="price">
-            <div class="test"><h1>Standart</h1>
-                <h1>5000₴ грн</h1></div>
-            <div class="access">
-                <p><i class="fa-solid fa-check fa-fw"></i> Доступ до відео уроків</p>
-                <p><i class="fa-solid fa-check fa-fw"></i> Онлайн чат</p>
-                <p><i class="fa-solid fa-check fa-fw"></i> Практичне заняття</p>
-                <p><i class="fa-solid fa-check fa-fw"></i> Домашнє завдання</p>
-                <p><i class="fa-solid fa-xmark fa-fw"></i> Бронювання місця</p>
-            </div>
-            <button class="buy1" onClick='location.href="../index.html"'>ОПЛАТИТИ</button>
-        </div>
-        <div class="price1">
-            <div class="test"><h1>Standart<br>+ Reservation</h1>
-                <h1>5250₴ грн</h1></div>
-            <div class="access">
-                <p><i class="fa-solid fa-check fa-fw"></i> Доступ до відео уроків</p>
-                <p><i class="fa-solid fa-check fa-fw"></i> Онлайн чат</p>
-                <p><i class="fa-solid fa-check fa-fw"></i> Практичне заняття</p>
-                <p><i class="fa-solid fa-check fa-fw"></i> Домашнє завдання</p>
-                <p><i class="fa-solid fa-check fa-fw"></i> Бронювання місця</p>
-            </div>
-            <button class="buy1" onClick='location.href="../index.html"'>ОПЛАТИТИ</button>
-        </div>
     </div>
+    <button id="loadMore" style="display: block; margin: 20px auto;">Загрузити ще</button>
+    
+
+
     <div class="formtext">
         <h1>Запишіться на курс зараз</h1>
     </div>
@@ -93,7 +93,20 @@
             <button class="submit" name="submit" type="submit" id="contact-submit" data-submit="Відправка...">Відправити</button>
         </div>
     </form>
+    </div>
+    
+    <select id="SelectStatistic" onchange="handleSelectStatistic()">
+        <option value="pie">Кругова діаграма</option>
+        <option value="bar">Гістограма</option>
+        <option value="radar">Графік</option>
+    </select>
+    
+
+    <div><canvas id="myChart" style="width:100%;max-width:700px; display: flex; margin-left: auto; margin-right: auto;"></canvas></div>
+    <div><canvas id="myBar"   style="width:100%;max-width:700px; display: flex; margin-left: auto; margin-right: auto;"></canvas></div>
+    <div><canvas id="myRadar" style="width:100%;max-width:700px; display: flex; margin-left: auto; margin-right: auto;"></canvas></div>
 </main>
-<script src="../StaticFiles/JS/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="../StaticFiles/JS/products.js"></script>
 </body>
 </html>

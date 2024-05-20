@@ -10,43 +10,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
-
     <title>Курси | Головна</title>
+    
 </head>
 <body>
 <header>
     <div class="container">
         <div class="header-nav">
             <a href="index.html" class="logo"><img src="StaticFiles/IMG/logo.svg" alt=""></a>
-            <nav id="nav" class="nav">
-                <ul class="nav-list">
-                    <div class="search">
-                        <label>
-                            <input type="text" class="searchTerm" placeholder="Що будемо шукати?">
-                        </label>
-                        <button onclick="window.location.href='/index.html'" type="submit" class="searchButton">
-                            <i class="fa fa-magnifying-glass"></i>
-                        </button>
-                    </div>
-                    <li class="nav-item"><a href="index.html" class="nav-link active">Головна</a></li>
-                    <li class="nav-item"><a href="./Pages/directivity.html" class="nav-link">Орієнтованість</a></li>
-                    <li class="nav-item"><a href="./Pages/questions.html" class="nav-link">Головні питання</a></li>
-                    <li class="nav-item"><a href="./Pages/info.html" class="nav-link">Основне про курси</a></li>
-                    <li class="nav-item"><a href="/Pages/form.html" class="nav-link">Оплата та зв'язок</a></li>
-                    <li class="nav-item"><a href="./Pages/login.html" class="nav-link">Реєстрація</a></li>
-                </ul>
-            </nav>
-            <button id="nav-btn" class="nav-button">
-                <img id="nav-btn-img" src="StaticFiles/IMG/nav-open.svg" alt="Nav button">
+        </div>
+        <div class="search">
+            <label>
+                <input type="text" class="searchTerm" placeholder="Що будемо шукати?">
+            </label>
+            <button onclick="window.location.href='/index.html'" type="submit" class="searchButton">
+                <i class="fa fa-magnifying-glass"></i>
             </button>
+            <nav>
+        </div>
+        <div class="menu-items">
+            <ul>
+            <li><a href="../index.html">Головна</a></li>
+            <li ><a href="/Pages/directivity.html">Про нас</a></li>
+            <li ><a href="/Pages/news.html">Новини</a></li>
+            <li ><a href="/Pages/questions.html" >Головні питання</a></li>
+            <li ><a href="/Pages/info.html" >Основне про курси</a></li>
+            <li ><a href="/Pages/form.html" >Оплата та зв'язок</a></li>
+            <li ><a href="/Pages/login.html" >Реєстрація</a></li> 
+            </ul>
+        </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>
 <main>
     <div class="header-row">
         <div class="header-content">
-            <h1 class="header-heading">Офлайн-курс пошуковими рекламним кампаніям у Google</h1>
-            <p>Курс ознайомить із Контекстною рекламою та Пошуковими кампаніями. Унікальна можливість вийти на приланс
+            <h1 class="header-heading">Офлайн-курс по пошуковим рекламним кампаніям у Google</h1>
+            <p>Курс ознайомить із Контекстною рекламою та Пошуковими кампаніями. Унікальна можливість вийти на фриланс
                 та працювати з дому.</p>
             <div class="course">
                 <button type="button" name="regtocourse" class="regtocourse" onClick='location.href="./Pages/login.html"'>
@@ -62,6 +64,9 @@
         </div>
     </div>
 </main>
+
+<script src="mood.js"></script>
+<script src="mod.js"></script>
 <script src="StaticFiles/JS/main.js"></script>
 </body>
 </html>

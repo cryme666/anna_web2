@@ -5,10 +5,13 @@
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
+    margin-top: 50px;
 }
-.boxes{
+.boxes {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 .price{
     width: 288px;
@@ -40,13 +43,49 @@
 
 .price1 h1{
     margin-bottom: 20px;
+    
+}
+
+.price2{
+    width: 288px;
+    height: 520px;
+    background: #FFFFFF;
+    background-image: url("../../StaticFiles/IMG/Vector.png");
+    background-repeat: no-repeat;
+    box-shadow: 0 20px 25px rgba(31, 41, 55, 0.1), 0 10px 10px rgba(31, 41, 55, 0.04);
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+.price2 h1{
+    margin-bottom: 20px;
+    
+}
+
+.price3{
+    width: 288px;
+    height: 520px;
+    background: #FFFFFF;
+    background-image: url("../../StaticFiles/IMG/Vector.png");
+    background-repeat: no-repeat;
+    box-shadow: 0 20px 25px rgba(31, 41, 55, 0.1), 0 10px 10px rgba(31, 41, 55, 0.04);
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.price3 h1{
+    margin-bottom: 20px;
 }
 
 .access p{
     color: black;
 }
 .access{
-    margin-top: 110px;
+
     margin-left: 30px;
     text-align: left;
 }
@@ -109,4 +148,123 @@
     color: white;
     margin-left: 10px;
 
+}
+
+.price button {
+    margin-top: 20px;
+    align-self: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#loadMore {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 256px;
+    height: 48px;
+    background: #7B68EE;
+    border-radius: 12px;
+}
+
+.sort-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sort-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #7B68EE;
+    border-radius: 12px;
+}
+
+ #cart {
+    position: fixed;
+    right: 0;
+    top: 50px;
+    width: 300px;
+    background: #7B68EE;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cartItems {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+} 
+
+
+#SelectStatistic {
+
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    margin: 0 auto; 
+    margin-top: 100px;
+    display: block; 
+}
+
+  
+
+  #SelectStatistic option {
+    background-color: #fff;
+    color: #333;
+  }
+  
+
+canvas {
+    width: 100%;
+    max-width: 700px;
+    display: none; 
+    margin: 20px auto;
+    background-color: white;
+}
+
+.akeconsa-udaneles {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 9999;
+}
+
+.akeconsa-udaneles a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
 }
